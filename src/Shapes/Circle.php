@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace AntraUzd\Shapes;
 
-use AntraUzd\Constants;
+use AntraUzd\ShapeMathConstants;
 
 class Circle implements ShapeInterface
 {
@@ -15,11 +15,11 @@ class Circle implements ShapeInterface
 
     public function area(): float
     {
-        return pow($this->radius, 2) * Constants::PI;
+        return pow($this->radius, 2) * ShapeMathConstants::PI;
     }
 
     public function perimeter(): float
     {
-        return 2 * Constants::PI * $this->radius;
+        return 2 * ShapeMathConstants::PI * $this->radius;
     }
 }

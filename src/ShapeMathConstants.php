@@ -2,7 +2,7 @@
 
 namespace AntraUzd;
 
-class Constants
+class ShapeMathConstants
 {
     public const PI = 3.14159265359;
 }

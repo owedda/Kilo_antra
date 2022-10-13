@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace AntraUzd\Shapes;
 
-use AntraUzd\Constants;
+use AntraUzd\ShapeMathConstants;
 
 class Square implements ShapeInterface
 {
